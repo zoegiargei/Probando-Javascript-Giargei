@@ -1,0 +1,36 @@
+.containerOne{
+
+    padding: 20px;
+    height: 100vh;
+    
+    color: $colorClaro;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../imagenes/2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.containerTwo{
+
+    padding: 20px;
+    height: 100vh;
+
+    color: $colorClaro;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../imagenes/3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
