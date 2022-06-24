@@ -36,4 +36,4 @@ Lista de las tecnologías usadas en el proyecto:
 
 ### 3. INFORMACIÓN SOBRE EL AUTOR
 
-**Mi nombre es Zoe Giargei, tengo 21 años, actualmente estoy estudiando una carrera de programación. Tengo conocimiento en Python, Java, HTML5 y CSS3 y JavaScript. Estudié 2 años la carrera de Ingeniería en Sistemas en la UTN, por lo tanto, por lo visto en esos años tengo facilidad para aprender lógica de programación . Mi objetivo es dedicarme a la programación,y la bioquímica como quien dice por amor al arte... ¡Espero que mi proyecto demuestre mi dedicación y ganas de aprender en este rubro!**
+**Mi nombre es Zoe Giargei, tengo 21 años, actualmente estoy estudiando una carrera de programación. Tengo conocimiento en Python, Java, HTML5 y CSS3 y proximamente en JavaScript. Estudié 2 años la carrera de Ingeniería en Sistemas en la UTN, por lo tanto, por lo visto en esos años tengo facilidad para aprender lógica de programación . Mi objetivo es dedicarme a la programación,y la bioquímica como quien dice por amor al arte... ¡Espero que mi proyecto demuestre mi dedicación y ganas de aprender en este rubro!**
