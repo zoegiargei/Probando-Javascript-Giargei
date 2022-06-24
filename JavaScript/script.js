@@ -5,7 +5,7 @@
 
 /*Desafío entregable 1*/
 
-
+/*Ejersicio 1*/
 let unNumero, personaje;
 
 do{
@@ -27,7 +27,7 @@ console.log("Ejersicio de asignación de personaje de los Simpson")
 console.log("El personaje es: " + personaje)
 
 
-
+/*Ejersicio 2*/
 let num;
 let factorial = 1;
 
@@ -67,6 +67,27 @@ if (colorArc == "rojo"){
     console.log("El color SI está en el arcoiris");
 } else{
     console.log("Ese color NO está en el arcoiris");
+}
+
+
+/*Ejersicio 3*/
+let producto;
+
+alert("Crear lista de compras - La lista se verá en la consola - Para finalizar la lista de compras ingrese la palabra 'fin' ...");
+producto = prompt("Ingrese producto que necesita en la lista de compras o ingrese la palabra 'fin' : ").toLowerCase()
+
+console.log("");
+console.log("-LISTA DE COMPRAS-")
+while(producto != "fin"){
+
+    if (producto != undefined){
+        console.log("-" + producto);
+    }
+    else{
+        console.log("Lista de compras vacía.")
+    }
+
+    producto = prompt("Ingrese otro producto que necesita en la lista de compras o ingrese la palabra 'fin' : ").toLowerCase()
 }
 
 
