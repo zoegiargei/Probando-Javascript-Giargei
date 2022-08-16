@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -86,6 +86,46 @@
             <h5 class="display-5">
                 Aprendiendo [JS]
             </h5>
+
+            <!--Dolar hoy API-->
+            <div class="contenedorDolar">
+                <h1>Dolar Hoy</h1>
+                <div class="dolar" id="dolar">
+                    <p id="solidario" class="solidario"></p>
+                    <p id="blue" class="blue"></p>
+                </div>
+            </div>
+
+            <!--Prueba API conversor de moneda-->
+            <div class="contenedorDivisas">
+                <h1>Conversor de Divisas</h1>
+
+                <div class="contenedorDivisas__divisa">
+                    <h5 class="nombre">Divisa:</h5>
+                    <h5 class="valor">Monto:</h5>
+                </div>
+
+                <!--Conversor de moneda-->
+                <div class="contenedorDivisas__divisa">
+                    <div class="nombre">Argentino</div>
+                    <input type="number" id="ARS" class="valor" name="ARS" value="1" data-cambio="1" step="0.25">
+                </div>
+
+                <div class="contenedorDivisas__divisa">
+                    <div class="nombre">Euro</div>
+                    <input type="number" id="EUR" class="valor" name="EUR" value="1" data-cambio="0.007242" step="0.25">
+                </div>
+
+                <div class="contenedorDivisas__divisa">
+                    <div class="nombre">Dolar</div>
+                    <input type="number" id="USD" class="valor" name="USD" value="1" data-cambio="0.010434" step="0.25">
+                </div>
+
+                <div class="contenedorDivisas__divisa">
+                    <div class="nombre">Australiano</div>
+                    <input type="number" id="AUD" class="valor" name="AUD" value="1" data-cambio="0.010434" step="0.25">
+                </div>
+            </div>
         </div>
 
         <div class="row containerTwo">
@@ -95,7 +135,7 @@
 
     </main>
     
-    <!--Link de JS-->
+    <!--JS-->
     <script src="./JavaScript/script.js"></script>
 </body>
 </html>
