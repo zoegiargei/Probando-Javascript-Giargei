@@ -87,11 +87,6 @@
 //     producto = prompt("Ingrese otro producto que necesita en la lista de compras o ingrese la palabra 'fin' : ").toLowerCase()
 // }
 
-
-
-
-
-
 //Ejecutar función en el evento CLICK
 
 document.getElementById("btnOpen").addEventListener("click", openCloseMenu)
@@ -104,7 +99,6 @@ let body = document.getElementById("body");
 
 
 //Evento para mostrar y ocultar menú
-
 function openCloseMenu(){
     
     body.classList.toggle("bodyMove");
@@ -112,7 +106,6 @@ function openCloseMenu(){
 }
 
 //Si el ancho de la página es menor a 759px, ocultará el menú al recargar la página...
-
 if (window.innerWidth < 761){
 
     body.classList.add("bodyMove");
@@ -120,7 +113,6 @@ if (window.innerWidth < 761){
 }
 
 //Haciendo el menú responsive(adaptable)
-
 window.addEventListener("resize", function(){
 
     if (window.innerWidth > 761){
@@ -134,11 +126,9 @@ window.addEventListener("resize", function(){
     }
 })
 
+//AJAX y Fetch
 
-
-
-
-//AJAX
+//Dolar hoy
 fetch("https://criptoya.com/api/dolar")
 .then(response => response.json())
 .then(({solidario, blue}) => {
@@ -155,7 +145,7 @@ fetch("https://criptoya.com/api/dolar")
     Blue: ${blue}`
 })
 
-//conversor de moneda
+//Conversor de moneda
 let myHeaders = new Headers();
 myHeaders.append("apikey", "xTSp083De3jdN6gDfkoYCXuO6HgBh0xQ");
 
@@ -165,7 +155,7 @@ let requestOptions = {
   headers: myHeaders
 };
 
-//
+//api layer
 fetch("https://api.apilayer.com/currency_data/live?source=ARS&currencies=USD,EUR,AUD", requestOptions)
 .then(response => response.json())
 .then(result => {
@@ -193,6 +183,8 @@ fetch("https://api.apilayer.com/currency_data/live?source=ARS&currencies=USD,EUR
 let inputs = document.querySelectorAll(`.valor`)
 
 inputs.forEach((input)=>{
+    
+    input.value = (input.dataset.cambio)
     input.addEventListener(`change`, () => {
         valorModificado(input)
     })
