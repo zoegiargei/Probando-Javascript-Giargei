@@ -30,7 +30,7 @@ Lista de las tecnologías usadas en el proyecto:
 
 ### 2. VISTA PREVIA DEL PROYECTO
 
-![Vista previa del proyecto](https://user-images.githubusercontent.com/48769662/175142612-bff7f5ad-56c6-4803-aefa-8c720fcd2363.png)
+![Vista previa del proyecto]!(https://user-images.githubusercontent.com/48769662/184951583-d29074be-c655-4409-a6c9-f2a0cf507266.png)
 
 ***
 
